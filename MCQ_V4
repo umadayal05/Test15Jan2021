@@ -1,0 +1,124 @@
+Jenkins for Network Engineers - Accenture Training – Post Test:
+
+Note: Participants need to select at least one answer from multiple choice questions but few questions can have multiple answers, in which case choose as many right answers as possible
+
+1.	What is DevOps?
+a.	It’s a Software Development Methodology
+b.	It’s a culture that promotes better co-operation between Dev & Ops team 
+c.	A set of best practices to reduce delivery times
+d.	Automate all possible activities within a project
+
+2.	Who coined the term DevOps?
+a.	Larry Page
+b.	Patrick Debois
+c.	Martin Fowler
+d.	No one
+
+3.	Who created Jenkins?
+a.	Linus Torvalds
+b.	Bill Gates
+c.	Kohsuke Kawaguchi
+d.	Akane Yamaguchi
+
+4.	What’s the relation between Hudson & Jenkins?
+a.	They are not related
+b.	Hudson is the recent release of Jenkins
+c.	Jenkins originated from Hudson
+d.	They both refer to the same product
+
+5.	Choose the pre-requisites required to install/run Jenkins, pick one or more.
+a.	JDK or JRE  version 1.8
+b.	Apache Ant
+c.	Apache Maven
+d.	Apache Tomcat Server
+
+6.	What is the role played by Git during Continuous Integration involving Jenkins? Pick one or more correct answers.
+a.	Git acts as a source code management tool
+b.	Git provides plugins for Continuous Integration
+c.	Git Client provides hooks for integrating with Jenkins Server
+d.	Git Server provides web-hooks for invoking call back functions which can be used by Jenkins to trigger automatic jobs
+ 
+7.	What is the command to create a new Git Repository on the client?
+a.	git repo init
+b.	git create repo
+c.	git init
+d.	git repo
+
+8.	Choose the commands that can be used to create a branch. Pick one or more.
+a.	git create branch Accenture
+b.	git checkout Accenture
+c.	git branch Accenture
+d.	git checkout –b Accenture
+
+9.	What is the preferred approach to instruct git client NOT TO track some files.
+a.	Put these files in a ‘temp’ folder
+b.	Mark proper regex in a file called ‘ignoregit’
+c.	Mark proper regex in a file called ‘gitignore’
+d.	Mark proper regex in a file called ‘.gitignore’
+
+10.	Pick all that is needed to Integrate Jenkins with GitHub Server for CI
+a.	GitHub credentials (SSH keys or username & password)
+b.	GitHub plugin installed on Jenkins
+c.	CI plugin installed on Jenkins
+d.	Maven 
+
+11.	What is the basic problem that is addressed by Containers?
+a.	They are light weight
+b.	Resolves application portability issues
+c.	Software Components and their dependency issues
+
+12.	What is the correct URL for configuring a webhook in GitHub? Pick one or more
+a.	http://your-jenkins-URL-with-port/github-web-hook/
+b.	http://your-jenkins-URL-with-port/github-webhook/
+c.	http://your-jenkins-URL-with-port/jobname/github-webhook/
+d.	http://your-jenkins-URL-with-port/jobname/webhook/
+
+
+13.	What all needs to be considered by Backing up Jenkins? Pick one or more.
+a.	Ensure that Jenkins is running full capacity jobs
+b.	Ensure that Jenkins runs as limited jobs as possible
+c.	If possible, shut down Jenkins while backing it up
+
+ 
+14.	While running Jenkins on Linux, what additional configuration needs to be considered? Pick one or more
+a.	Jenkins User needs to be have appropriate privileges to run applications
+b.	Jenkins User needs to have correct folder permissions
+c.	There is no difference between Jenkins on Windows & Linux
+
+15.	What best defines a pipeline Job in Jenkins? Pick one or more.
+a.	A bunch of jobs that listen to the same message queue
+b.	A series of Jobs that are owned & run by the same user
+c.	A set of Jobs which define a certain workflow & dependency
+d.	There is nothing called pipeline Jobs in Jenkins
+
+16.	What is a Jenkins Agent or Slave? Pick one or more.
+a.	It is another Jenkins Server
+b.	It’s a light weight Jenkins worker 
+c.	It’s a Jenkins Server running on low configuration node
+d.	There is no difference between Jenkins Server & Agent
+
+17.	Pick the command using which ANSIBLE can be installed on Ubuntu machine
+a.	sudo yum update && sudo yum install ansible
+b.	sudo apt get update && sudo apt-get install ansible
+c.	sudo apt-get update && sudo apt-get install ansible
+d.	sudo apt-get update && sudo apt-install ansible
+
+
+18.	Which of the following will copy hello.txt from ANSIBLE server to a group of servers aliased by “app”, into the “tmp” folder
+a.	ansible app –a file –m “copy src=hello.txt dest=/tmp”
+b.	ansible all –m copy –a “file src=hello.txt dest=/tmp”
+c.	ansible app –m copy –a “src=hello.txt target=/tmp”
+d.	ansible app –m copy –a “src=hello.txt dest=/tmp”
+
+
+19.	What is gathering facts in ANSIBLE playbook?
+a.	It’s a fact finding probe which can be randomly used by ANSIBLE
+b.	It’s a special tool for gathering information about devices
+c.	This is the first default task run by any ANSIBLE playbook which gathers information about all nodes or devices that it controls
+d.	There is nothing called gathering facts in ANSIBLE playbook
+
+20.	Which module can be used to gather facts about ios devices?
+a.	The regular Ansible facts can do it
+b.	ios_commands
+c.	ios_banner
+d.	ios_facts
